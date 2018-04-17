@@ -71,7 +71,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/               
-                $("#release_date").html(json.results[0].release_date);
+               $("#release_date").html(json.results[0].release_date);
                 
 
                  /***********************Retrieve Movie Popularity Rate from Server & Add to HTML Document******
@@ -85,7 +85,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/   
-                 $("#popularity").html(json.results[0].popularity);
+               $("#popularity").html(json.results[0].popularity);
 
                 
                  /*****************Retrieve Movie Original Language from Server & Add to HTML Document***********
@@ -99,7 +99,7 @@ $(document).ready(function(){
                  3.  Use the example above where the Movie Title was retrieved to complete this step!
                  
                  *********************************Insert Code Below********************************************/                 
-                 $("#original_language").html(json.results[0].original_language);
+                $("#original_language").html(json.results[0].original_language);
 
 
                 //The following code retrieves the movie poster path from the JSON object retrieved from the TMDB 
@@ -110,7 +110,7 @@ $(document).ready(function(){
                 var posterURL = "https://image.tmdb.org/t/p/w500" + json.results[0].poster_path;
                 
                 //Step 2:  Add the value for the img src attribute to point to the poster's URL
-                $("#poster_path").attr('src', posterURL);
+               $("#poster_path").attr('src', posterURL);
 
             }) //end of done
             .fail(function() {
