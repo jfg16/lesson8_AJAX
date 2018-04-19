@@ -16,6 +16,6 @@ Building an application that grabs data on movies, using API, JSON, & Ajax.
 https://jfg16.github.io/lesson8_AJAX/
 
 ### Lessons Learned in the Assignment:
-1. 
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. API, application-programming interface, is used as a instructions and standards to connect website applications or tools.
+2. AJAX is used for HTML, CSS, JavaScript and more to allow webpages process and show data quicker.
+3. When information is inputted to request more data, the HTTP response returns the data in JSON-format, human readable text.
