@@ -16,6 +16,6 @@ Building an application that grabs data on movies, using API, JSON, & Ajax.
 https://jfg16.github.io/lesson8_AJAX/
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
+1. 
 2. (Briefly describe a lesson/concept learned in this lesson.)
 3. (Briefly describe a lesson/concept learned in this lesson.)
